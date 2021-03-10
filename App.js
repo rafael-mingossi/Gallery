@@ -4,12 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { WebView } from "react-native-webview";
 
 const App = () => {
-  return (
-    <WebView
-      source={{ uri: "http://192.168.176.115/Gallery" }}
-      style={{ marginTop: 220 }}
-    />
-  );
+  return <WebView source={{ uri: "http://192.168.176.115/Gallery" }} />;
 };
 
 export default App;
